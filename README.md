@@ -10,4 +10,4 @@ style.css -> heading font styles. \n
 app.js -> Register button listner.
 
 # Developer Contact
- Msg me on [Telegram](tg.png)(https://t.me/Abhishek_returns).
+ Msg me on [Telegram](https://t.me/Abhishek_returns).

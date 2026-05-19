@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body align="center">
+    <header>
+      <h1>Registration Form</h1>
+    </header>
+    <main>
+      <div class="dummy">
+        <p id="para1">this is a sample paragraph i applied word wrap to it</p>
+        <p id="para2">This is another sample paragraph.</p>
+        <h1 id="head1">this is a heading 1</h1>
+        <img id="apple"
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAUVBMVEX///9mZmZeXl5iYmJXV1daWlqlpaXBwcH8/Py0tLRubm6rq6vw8PCIiIiBgYHc3Nz29vbQ0NCfn590dHTj4+OQkJDq6upSUlKWlpbHx8e6urpx1ZffAAABmElEQVRIib2W65KDIAyFIQQvULRg1db3f9AFu91tazTQmd38ZOabE5KTgBB/GX3dfECdg9bzuZyrUUkJ5YoVyhimmLM6cepayvlVT2pfyDVq5coztbByWCoo7noQSrnLekNwpZy4pUz1WMyJBUHLupwTfbD5ZTnVYXTXZfo5aHrrBjM42x9hF4egYgAae0kHfgQNqZvqMGuL3x1PxURTBaV/D2Kdup0hcVq+hFLy7UCeKG4EyYUyxHy1muViDtsSTchz4AhB934hQo8y3zTzguR0WV4QSQsYPtGO4k58aYA0jud7gRMF1nzzgeJEy4PyU5BedRmg+hREcqZyikOukZ5vhyLXXYYBdhrJW3XHcxlTJXVLgEuGAyQSds1ZAJGstiQ/VynAbJqS49ZEbl71c1au1Bq4ZtSVtHpWefSN6MiYI0lwObYjBTMKS5suxsAki+RjlZI9Hi6kE03hj6657f3zNZ9JBc9PK+xd8B4WHxAOwYYOH485w6VfUdSBuavvhWh8iN8HgJmYiw0aKv/ygPaLbcm18b/xBf8tD08u8Xy+AAAAAElFTkSuQmCC"
+          alt="apple"
+        />
+      </div>
+<hr size="5" color="green">
+      <form action="/server">
+        <input type="text" id="fname" name="fname" placeholder="First Name" />
+        <input type="text" id="lname" name="lname" placeholder="Last Name" />
+        <br />
+        <label for="gender"><b>Please select gender</b></label>
+        <select id="gender" name="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+          <option value="Other">Other</option>
+        </select>
+        <br />
+        <label for="Agreement"
+          ><b>Do you agree to all terms of service?</b></label
+        >
+        <input
+          type="checkbox"
+          id="Agreement"
+          name="Agreement"
+          value="Yes"
+          checked
+        />
+        <label for="Agreement"><b>Yes,&nbsp;&nbsp;I agree</b></label>
+        <br />
+
+        <input type="submit" value="Register" />
+      </form>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

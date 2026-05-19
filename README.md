@@ -5,8 +5,8 @@ Abhishek Kumar Prabhat
 User details form for learning how diffrent form elements tags works in html.
 
 # files
-form.html -> form structure. \n
-style.css -> heading font styles. \n
+form.html -> form structure. <br>
+style.css -> heading font styles. <br>
 app.js -> Register button listner.
 
 # Developer Contact

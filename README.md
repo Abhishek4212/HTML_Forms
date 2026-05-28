@@ -11,3 +11,5 @@ app.js -> Register button listner.
 
 # Developer Contact
  Msg me on [Telegram](tg.png)(https://t.me/Abhishek_returns).
+ 
+ added changes in info branch.
